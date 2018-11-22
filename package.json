@@ -74,14 +74,14 @@
 		"keybindings": [
 			{
 				"command": "wrapSelection.quote.single",
-				"key": "'",
-				"mac": "'",
+				"key": "shift+'",
+				"mac": "shift+'",
 				"when": "editorTextFocus && editorHasSelection"
 			},
 			{
-				"command": "wrapSelection.quote.double",
-				"key": "shift+'",
-				"mac": "shift+'",
+				"command": "wrapSelection.quote.backtick",
+				"key": "`",
+				"mac": "`",
 				"when": "editorTextFocus && editorHasSelection"
 			},
 			{
