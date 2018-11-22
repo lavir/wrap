@@ -32,7 +32,7 @@
 		"onCommand:wrapSelection.quote.french",
 		"onCommand:wrapSelection.bracket.square",
 		"onCommand:wrapSelection.bracket.round",
-		"onCommand:wrapSelection.bracket.backtick"
+		"onCommand:wrapSelection.backtick"
 	],
 	"main": "out/extension",
 	"contributes": {
@@ -54,7 +54,7 @@
 				"title": "Wrap selected text with double quote"
       },
       {
-				"command": "wrapSelection.bracket.backtick",
+				"command": "wrapSelection.backtick",
 				"title": "Wrap selected text with backtick"
 			},
       {
@@ -79,7 +79,7 @@
 				"when": "editorTextFocus && editorHasSelection"
 			},
 			{
-				"command": "wrapSelection.quote.backtick",
+				"command": "wrapSelection.backtick",
 				"key": "'",
 				"mac": "'",
 				"when": "editorTextFocus && editorHasSelection"

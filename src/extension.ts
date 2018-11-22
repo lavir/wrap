@@ -80,7 +80,7 @@ export function activate(context: ExtensionContext) {
   
   context.subscriptions.push(
 		commands.registerCommand(
-			"wrapSelection.bracket.backtick",
+			"wrapSelection.backtick",
 			() => {
 				const { activeTextEditor: editor } = window;
 				wrapSelection(editor, "`");
