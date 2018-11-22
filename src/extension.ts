@@ -76,6 +76,16 @@ export function activate(context: ExtensionContext) {
 				wrapSelection(editor, "[");
 			},
 		),
+  );
+  
+  context.subscriptions.push(
+		commands.registerCommand(
+			"wrapSelection.bracket.backtick",
+			() => {
+				const { activeTextEditor: editor } = window;
+				wrapSelection(editor, "`");
+			},
+		),
 	);
 
 	context.subscriptions.push(
