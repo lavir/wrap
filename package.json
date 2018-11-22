@@ -80,8 +80,8 @@
 			},
 			{
 				"command": "wrapSelection.quote.backtick",
-				"key": "`",
-				"mac": "`",
+				"key": "'",
+				"mac": "'",
 				"when": "editorTextFocus && editorHasSelection"
 			},
 			{
